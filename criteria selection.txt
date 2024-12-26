@@ -1,0 +1,82 @@
+
+=================================================
+create a frame for this criteria name the frame Produced fluid properties. the parameters are: water cut(%), Fluid Viscosity(cp), corrosion handling, sand production(ppm), GOR(scf/stb), contaminants, treatment. 
+
+for water cut (srp, 0-100. GL, 0-60; ESP 0-100; HPP, 0-70: HJP, 0-100 ; PL, 0-50; PCP, 0-50). 
+
+for fluid viscocity; (srp, 0-200. GL, 0-1000; ESP 100-500; HPP, 10-450: HJP, 14-200 ; PL, 0-200; PCP, 100-5000)
+
+for corrosion handling ; (srp, good-exellent. GL, good-exellent; ESP, good; HPP, good: HJP, exellent ; PL, exellent; PCP, fair)
+
+sand production (srp, 0-1. GL, 0; ESP, 0-100; HPP, 0-10: HJP, 0-30; PL, 0-1; PCP, 0-5)
+
+GOR ; (srp, 500-2000. GL, 0-2000; ESP, >1000; HPP, >800: HJP, 0-2000; PL, >1000; PCP, 0-500)
+
+contaminants (srp, Asphatene or paraffin. GL, Asphatene or paraffin; ESP, Asphatene or paraffin; HPP, paraffin: HJP, paraffin; PL, Asphatene or paraffin; PCP, Asphatene or paraffin)
+
+Treatment (srp, scale or acid. GL, scale or acid; ESP, scale or acid; HPP, scale or acid: HJP, scale or acid; PL, scale or acid; PCP, scale or acid) 
+
+
+
+
+=================================================================
+optimize the sizes of widgets and create another frame named "Production, Reservoir and Well properties". 
+give the frame these criterias: number of wells, production rate(BPD), well depth(ft), casinig size(in), deviated well, dogleg severity, temperature(F), Safety Barriers, Flowing Pressure (psi), Reservoir Access, Completion, Stability, and Recovery.
+
+for number of wells: (SRP, single or multiple; GL, multiple; ESP, multiple; HPP,single or more; HJP, single or more; PL, single; PCP, single)
+
+for production rate: (SRP, 5-5000; GL, 200-30000; ESP, 200-30000; HPP,50-4000; HJP, 300-15000; PL, 1-5; PCP, 5-4500)
+
+for well depth: (SRP, 100-16000; GL, 5000-15000; ESP, 1000-15000; HPP,7500-17000; HJP, 5000-15000; PL, 8000-19000; PCP, 2000-6000)
+
+for casing size: (SRP, 4.5-5.5; GL,4-7; ESP, 5.4-9.625; HPP,5-9.625; HJP, 5.5-7; PL, 7-990625; PCP, 5-7)
+
+for deviated well: (SRP, poor; GL, exellent; ESP, good; HPP,exellent; HJP, exellent; PL, good; PCP, poor)
+
+for dogleg severity: (SRP, <=15; GL,N/A; ESP, <=30; HPP,<=15; HJP, <=24; PL, pass; PCP, <=15)
+
+for temperature: (SRP, 100-550; GL,100-400; ESP, 100-400; HPP,100-500; HJP, 100-500; PL, 120-500; PCP, 75-250)
+
+
+for Safety barriers: (SRP, N/A; GL,N/A; ESP, N/A; HPP,N/A; HJP, N/A; PL, N/A; PCP, N/A)
+
+for flowing pressure: (SRP, 50-100; GL,100-1000; ESP, N/A; HPP,500-15000; HJP, 100-1000; PL, <275; PCP, 20-250)
+
+
+for reservoir access: (SRP, No; GL,Yes; ESP, No; HPP,Yes; HJP, Yes; PL, No; PCP, No) let no be 0 and yes be 1
+
+for completion: (SRP, single ; GL, single or multiple; ESP, single or multiple; HPP,single ; HJP, single; PL, single; PCP, single)
+
+
+for number of wells: (SRP, stable ; GL, stable or unstable; ESP, stable ; HPP,stable; HJP, stable; PL, stable; PCP, stable)
+
+
+for recovery: (SRP, primary or secondary ; GL, primary or secondary; ESP, primary or secondary ; HPP,primary or secondary; HJP, primary or secondary; PL, secondary; PCP, secondary)
+
+
+
+========================================================
+
+remove the fixed sizes for the frames and window. and add another frame called "Surface Infrastructure": 
+
+give this frame these criterias: (offshore application, electrical power, space restrictions, and well service)
+
+for offshore applications: (SRP, Limited ; GL, Excellent; ESP, Excellent ; HPP,Good; HJP, Excellent; PL, N/A; PCP, Limited)
+
+for Electrical power: (SRP, Utility or In-Situ ; GL, N/A; ESP, Utility ; HPP,Utility or In-Situ; HJP, Utility or In-Situ; PL, Utility or In-Situ; PCP, Utility or In-Situ)
+
+
+for Space Restritions: (SRP, Poor ; GL, Excellent; ESP, Excellent ; HPP,Excellent; HJP, Excellent; PL, good; PCP, good)
+
+for Well Service: (SRP, Workover or pulling rig ; GL, Workover or pulling rig; ESP, Workover or pulling rig ; HPP,Workover or Hydraulic;HJP, Workover or Hydraulic; PL, Workover or pulling rig; PCP, Workover or pulling rig)
+
+
+
+
+
+
+
+
+
+
+

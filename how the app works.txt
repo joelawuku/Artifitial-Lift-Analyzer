@@ -1,0 +1,20 @@
+===========================================================
+ARTIFICIAL LIFT ANALYZER-----------------developed by @joelawuku
+=================================================================
+how the app works:
+====================
+1. enter criteria values for all properties
+2. for the combo boxes select the property you want. eg. Safety barrier (YES/NO)___1/0
+3. click on Predict/Start
+4. all criteria defined in the thesis is incorporated in the app. selection of best ALS is done by scipy_score algorithm. 
+5. Display scores and best artificial lift sys.
+
+
+
+
+==================================================================
+FLAWS
+===============================================================
+1. clear button needs to be updated to clear all input and output. thus (table/graph)
+2. decision selection based on performance score should be updated.
+3. should be validated with other prediction methods.
